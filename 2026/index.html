@@ -117,7 +117,7 @@
     .skills-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
     .skill-card{border:1px solid #e3e8eb;border-radius:12px;padding:23px 21px;min-height:160px;background:white}.skill-icon{display:inline-flex;height:30px;width:30px;border-radius:8px;align-items:center;justify-content:center;background:#e5f7f3;color:#137d7f;font-size:15px;font-weight:850;font-family:Consolas,monospace}
     .skill-card h3{font-size:14px;margin:15px 0 10px}.skill-card p{font-size:12px;color:#65798a;line-height:1.9}
-    .journey{display:grid;grid-template-columns:1fr 1fr;gap:52px;margin-top:44px}.journey h3{font-size:20px;letter-spacing:-.5px;margin-bottom:26px}.timeline{border-left:1px solid #cbd8de;padding-left:25px;margin-left:6px}.timeline-item{position:relative;padding-bottom:32px}.timeline-item:last-child{padding-bottom:0}.timeline-item:before{content:"";position:absolute;left:-31px;top:7px;width:10px;height:10px;background:#2db7ad;border-radius:50%;box-shadow:0 0 0 5px #e7f5f3}.timeline-item time{display:block;font-size:10px;letter-spacing:1px;font-weight:780;color:#157c88;text-transform:uppercase}.timeline-item h4{font-size:16px;margin-top:5px}.timeline-item p{color:#6e7e8d;font-size:12px;line-height:1.7;margin-top:7px}
+    .journey{display:grid;grid-template-columns:1fr 1fr;gap:52px;margin-top:44px}.extras{display:grid;grid-template-columns:1fr 1fr;gap:52px;margin-top:40px;padding-top:28px;border-top:1px solid rgba(127,140,160,.25)}.extras h3{margin-bottom:8px}.extras p{color:inherit;opacity:.8}@media(max-width:760px){.extras{grid-template-columns:1fr;gap:20px}}.journey h3{font-size:20px;letter-spacing:-.5px;margin-bottom:26px}.timeline{border-left:1px solid #cbd8de;padding-left:25px;margin-left:6px}.timeline-item{position:relative;padding-bottom:32px}.timeline-item:last-child{padding-bottom:0}.timeline-item:before{content:"";position:absolute;left:-31px;top:7px;width:10px;height:10px;background:#2db7ad;border-radius:50%;box-shadow:0 0 0 5px #e7f5f3}.timeline-item time{display:block;font-size:10px;letter-spacing:1px;font-weight:780;color:#157c88;text-transform:uppercase}.timeline-item h4{font-size:16px;margin-top:5px}.timeline-item p{color:#6e7e8d;font-size:12px;line-height:1.7;margin-top:7px}
     .highlight-box{background:#142a40;color:#f2fbfb;border-radius:17px;padding:36px 38px;position:relative;overflow:hidden}.highlight-box:after{content:"";position:absolute;right:-80px;bottom:-110px;width:310px;height:310px;border:1px solid #557b8d4a;border-radius:50%;box-shadow:0 0 0 35px #557b8d19,0 0 0 70px #557b8d14;pointer-events:none}
     .highlight-box .kicker{color:#65e4d2}.highlight-box h3{font-size:27px;line-height:1.25;letter-spacing:-.8px;max-width:800px}.highlight-box p{font-size:14px;color:#bcd2d9;margin-top:16px;max-width:700px;line-height:1.8}.highlight-box .btn{margin-top:23px}
     .contact-section{background:var(--navy);color:white;padding:105px 0 75px}.contact-inner{display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:center}.contact-section h2{font-size:clamp(35px,4.4vw,57px);line-height:1.1;letter-spacing:-2px;margin:16px 0}.contact-section h2 em{font-style:normal;color:var(--teal)}.contact-section p{color:#b3c6d1;max-width:535px;line-height:1.8;font-size:14px}
@@ -272,6 +272,7 @@
               <p>Reconnaissance faciale avec YuNet/SFace, et participation à l'intégration de capteurs ESP32 (PIR, DHT11) et à la transmission MQTT/Mosquitto.</p>
               <div class="results"><div class="result"><b>5</b><span>membres dans l'équipe</span></div><div class="result"><b>5 jours</b><span>de workshop</span></div></div>
               <div class="stack"><span>OpenCV</span><span>YOLO</span><span>ESP32</span><span>Python</span><span>MQTT</span></div>
+              <div class="project-links"><a href="https://github.com/boubekeurmohamedarslen-hub/Sentinel-X" target="_blank" rel="noopener noreferrer">Voir le dépôt GitHub ↗</a></div>
               <p class="small-note">Prototype de formation, non présenté comme une solution de sécurité en production. L’illustration de détection est schématique, non issue du flux vidéo réel.</p>
             </div>
           </article>
@@ -326,6 +327,7 @@
         <div class="journey">
           <div><h3>Formation</h3><div class="timeline">
             <div class="timeline-item"><time>2026 – 2028 · en cours</time><h4>EPSI Paris · Expert IA & Data Science</h4><p>Cursus Bac+4/Bac+5 en cours, en alternance. Python, SQL, Machine Learning, Data Engineering et projets IA.</p></div>
+            <div class="timeline-item"><time>Oct. 2026</time><h4>Club EBIOS · MOOC EBIOS Risk Manager</h4><p>Introduction à la méthode d'analyse des risques cyber EBIOS Risk Manager (3 h).</p></div>
             <div class="timeline-item"><time>2023 – 2026</time><h4>USTHB · Parcours de master Automatique & Systèmes</h4><p>Master 1 validé (60 crédits), Master 2 suivi et PFE soutenu et validé sur l'estimation de la pression artérielle par PPG/NIR (MATLAB, Python). <strong>Diplôme de master non obtenu.</strong></p></div>
             <div class="timeline-item"><time>2019 – 2023</time><h4>USTHB · Licence en Automatique</h4><p>Automatique, électronique, capteurs et systèmes de commande ; projet de Smart Parking par Li-Fi.</p></div>
           </div></div>
@@ -336,6 +338,7 @@
             <div class="timeline-item"><time>Avr. 2020 – juin 2022</time><h4>Créateur d'entreprise · Masques de protection</h4><p>Seul, sans salarié : importation puis fabrication de masques pendant le Covid. Contrats avec des pharmacies, des magasins et Sonatrach, commandes de 30 000 à 50 000 masques, facturation.</p></div>
           </div></div>
         </div>
+      <div class="extras"><div><h3>Langues</h3><p>Français courant · Arabe courant · Anglais intermédiaire</p></div><div><h3>Permis</h3><p>Permis A et B, véhiculé</p></div></div>
       </div>
     </section>
     <section class="section" id="apropos" aria-labelledby="apropos-title">
